@@ -63,7 +63,7 @@ const App = () => {
 
   return (
     <div className="home">
-      <h1>ANIME QUIZ</h1>
+      <h1 className="home__header">ANIME QUIZ</h1>
       {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
         <button className="start" onClick={startTrivia}>
           Start

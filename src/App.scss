@@ -12,8 +12,9 @@ body {
 }
 
 * {
-  font-family: "Catamaran", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
+  font-size: 1rem;
 }
 .home {
   display: flex;
@@ -21,18 +22,19 @@ body {
   align-items: center;
 
 
-& > p {
-  color: #fff;
-}
-
 .score {
-  color: #fff;
-  font-size: 32px;
-  margin: 0;
+  background-image: linear-gradient(180deg, #fff, #87f1ff);
+  background-size: 100%;
+  filter: drop-shadow(.125rem .125rem #0085a3);
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.25rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
+
 }
 
 &__header {
-  font-family: Fascinate Inline;
   background-image: linear-gradient(180deg, #fff, #87f1ff);
   font-weight: 400;
   background-size: 100%;
